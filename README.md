@@ -1,2 +1,2 @@
 # Python
-Repo for Foundations of Python Course
+Repository for Foundations of Python Course
