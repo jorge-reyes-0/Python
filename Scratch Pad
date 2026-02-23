@@ -1,6 +1,0 @@
-import math
-
-cone_height = float(input())
-cone_radius = float(input())
-
-cone_volume = 1 / 3 * math.pi * cone_height * (cone_radius * cone_radius)
