@@ -1,22 +1,29 @@
-employees = {
-    'Alice': 55,
-    'Brian': 72,
-    'Carla': 60,
-    'David': 48
+stats = {
+    'Jan': 34,
+    'Feb': 28,
+    'Mar': 41,
+    'Apr': 30
 }
 
-highest = 0
-highest_key = ''
+highest = list(stats.values())[0]
+highest_key = list(stats.keys())[0]
+lowest = list(stats.values())[0]
+lowest_key = list(stats.keys())[0]
 total = 0
 
-for name in sorted(employees):
-    print(name, employees[name])
+for k in sorted(stats):
+    print(k, stats[k])
 
-    total += employees[name]
+    total += stats[k]
 
-    if employees[name] > highest:
-        highest = employees[name]
-        highest_key = name
+    if stats[k] > highest:
+        highest = stats[k]
+        highest_key = k
 
-print(f'Most hours: {highest_key} {highest}')
-print(f'Total hours: {total}')
+    if stats[k] < lowest:
+        lowest = stats[k]
+        lowest_key = k
+
+print(f'Highest: {highest_key} {highest}')
+print(f'Lowest: {lowest_key} {lowest}')
+print(f'Total: {total}')
