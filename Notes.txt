@@ -1,0 +1,19 @@
+### Data Types
+1. Integer = 5
+2. Float = 3.14
+3. Boolean = True / False
+4. String = 'hello'
+5. List = [1,2,3]
+6. Tuple = (1,2,3)
+7. Set = {1,2,3}
+8. Dictionary = {'name': 'jorge'}
+
+### Mutable vs. Immutable
+1. Mutable
+    1. List
+    2. Dictionary
+    3. Set
+2. Immutable
+    1. Tuple
+    2. String
+    3. Integer
