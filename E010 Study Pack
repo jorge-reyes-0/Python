@@ -1,0 +1,43 @@
+### WGU E010 Python Study Pack
+###Focused Review Based on Practice Assessment
+1. Core Python Concepts
+1 Comments: Use # for single-line comments
+2 Data Types: int, float, str, bool
+3 For Loop: Iterates over an iterable (list, string, range)
+4 While Loop: Needs a condition and update
+5 Break: Exits a loop early
+6 Loop Variable: Represents each item in a sequence
+2. Data Structures
+1 List: Ordered, changeable
+2 Tuple: Ordered, not changeable
+3 Set: No duplicates allowed
+4 Dictionary: Key-value pairs
+3. Terminal Basics
+1 Run a script: python script.py
+2 Change directory: cd folder_name
+3 Interactive mode: python
+4 Integrated terminal: run code without switching apps
+4. Strings & Slicing
+Get last 3 characters:
+filename[-3:]
+.find() returns starting index of substring
+5. Essential Functions
+def add_item(lst, num):
+lst.append(num)
+return lst
+def update_grade(grades, student, new_grade):
+grades[student] = new_grade
+return grades
+def double_number(num):
+return num * 2
+def is_positive(num):
+return num > 0
+def calculate_discount(price, percent):
+return price - (price * percent / 100)
+def convert_temperature(c):
+return c * 9/5 + 32
+6. Debugging Patterns
+1 Last character: text[-1]
+2 Even check: return num % 2 == 0
+3 Larger number: if a > b return a else return b
+4 Always use return when required
