@@ -20,6 +20,7 @@ with open("log.txt", "r") as f:
     contents = f.read()   # entire file as one string
 
 with open("log.txt", "r") as f:
+    
     line = f.readline()   # one line at a time
 
 with open("log.txt", "r") as f:
