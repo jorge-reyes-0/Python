@@ -17,3 +17,14 @@
     1. Tuple
     2. String
     3. Integer
+
+    
+File Modes
+
+"r" = Read only. File must exist. FileNotFound error if missing
+"w" = Write. Creates file if needed. Overwrites existing content
+"a" = Append. Adds to end of the file. Creates file if missing
+"r+" = Read and write. File must exist
+
+Using "w" on an existing file deletes everything in it first. 
+For log files, always use "a" to append instead.
