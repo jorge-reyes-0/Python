@@ -33,3 +33,16 @@ else:
 
 ############################################################################
 
+# Conditional Expressions
+# Shorthand if/else
+
+# Syntax of a shorthand if/else
+
+# Assume there is a function is_device_up(device_ip) that returns true if the device
+# is up and false if its down
+
+device_ip = '192.168.1.1' # IP address of the network device
+
+status = 'up' if is_device_up(device_ip) else 'down'
+print(f'Device {device_ip} is {status}')
+
