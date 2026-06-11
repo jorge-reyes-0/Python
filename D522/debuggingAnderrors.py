@@ -34,3 +34,27 @@
     # Unit testing
     # Logging
     # Profiling
+
+###########################################################################################
+
+# Logic Errors
+
+# Occur when the syntax of the code is correct, but the code does not perform as intended
+# due to incorrect logic.
+
+# Example
+
+for i in range(11): # supposed to be 10
+    print(i)
+
+# Incorrect Boolean Expressions
+
+# Occur when the conditions in an if statement, while loop or other Boolean expression are not
+# correctly formulated. For example, using and instead of or can lead to unexpected results
+
+x = 3
+
+if x < 0 and x < 5:
+    print('x is outside the range 0-5')
+else:
+    print('x is inside the range of 0-5')
