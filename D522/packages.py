@@ -18,3 +18,29 @@
 
 # Using a Package
 
+# To use a python package, it must first be imported into the Python script using the import statement
+# Once imported, the functions, classes, or variables defined in the package can be accessed using the
+# dot notation
+
+# Example
+
+from netmiko import ConnectHandler
+
+device = {
+    'device_type': 'cisco_ios',
+    'ip': '10.0.0.1',
+    'username': 'password'
+}
+
+connection = ConnectHandler(**device)
+
+output = connection.send_command('show ip int brief')
+print(output)
+
+connection.disconnect()
+
+#############################################################################################
+
+# Removing a package
+
+# Packages can be removed using pip. pip uninstall package_name
