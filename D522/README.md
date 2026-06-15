@@ -33,9 +33,12 @@ D522/
 │   ├── libraries.py            — Standard library, socket example
 │   └── packages.py             — pip commands, netmiko ConnectHandler example
 │
-└── 06_reference/
-    ├── debugging_and_errors.py — Syntax/runtime/semantic errors, debugging techniques
-    └── comparing_files.py      — filecmp module for comparing configuration files
+├── 06_reference/
+│   ├── debugging_and_errors.py — Syntax/runtime/semantic errors, debugging techniques
+│   └── comparing_files.py      — filecmp module for comparing configuration files
+│
+└── 07_application_of_python/
+    └── apis.py                 — REST API workflow: GET config, modify, PUT back
 ```
 
 ---
@@ -61,6 +64,7 @@ D522/
 | Packages (pip / netmiko) | `05_modules_packages_libraries/packages.py` |
 | Debugging and error types | `06_reference/debugging_and_errors.py` |
 | Comparing files | `06_reference/comparing_files.py` |
+| REST APIs | `07_application_of_python/apis.py` |
 
 ---
 
@@ -69,3 +73,4 @@ D522/
 - Python 3.x
 - Optional (only needed for SSH examples): `pip install paramiko`
 - Optional (only needed for netmiko examples): `pip install netmiko`
+- Optional (only needed for API examples): `pip install requests`
